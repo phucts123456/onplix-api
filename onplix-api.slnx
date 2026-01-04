@@ -1,1 +1,4 @@
-<Solution />
+<Solution>
+  <Project Path="onplix.Domain/onplix.Domain.csproj" />
+  <Project Path="onplix.Infrastructure/onplix.Infrastructure.csproj" Id="aa032917-533b-440d-b0e3-fab99b67b313" />
+</Solution>
