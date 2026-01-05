@@ -5,6 +5,7 @@ namespace onplix.Infrastructure.Data
 {
 	public partial class OnPlixDbContext : DbContext
 	{
+		public OnPlixDbContext() { }
 		public OnPlixDbContext(DbContextOptions<OnPlixDbContext> options) : base(options) { }
 
 		public DbSet<Account> Accounts { get; set; }
@@ -24,6 +25,10 @@ namespace onplix.Infrastructure.Data
 		public DbSet<Episode> Episodes { get; set; }
 		public DbSet<MediaAsset> MediaAssets { get; set; }
 		public DbSet<WatchHistory> WatchHistories { get; set; }
+
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		=> optionsBuilder.UseSqlServer("Server=localhost,1433;Database=onplixDb;User Id=sa;Password=onplix@123;TrustServerCertificate=True;");
+
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
@@ -123,6 +128,16 @@ namespace onplix.Infrastructure.Data
 			{
 				entity.HasKey(e => e.Id);
 
+			});
+
+			// Episode
+			modelBuilder.Entity<Episode>(entity =>
+			{
+				entity.HasKey(e => e.Id);
+				entity.HasOne(e => e.Title).WithMany(t => t.Episodes)
+				.HasForeignKey(e => e.TitleId)
+				.OnDelete(DeleteBehavior.ClientSetNull)
+				.HasConstraintName("FK__Episodes__Title__6477ECF3");
 			});
 
 			modelBuilder.Entity<Operator>(entity =>

@@ -17,6 +17,7 @@
 		public ICollection<TitleGenre> TitleGenres { get; set; } 
 		public ICollection<TitleTag> TitleTags { get; set; } 
 		public ICollection<Credit> Credits { get; set; } 
+		public ICollection<Episode> Episodes { get; set; } 
 		public Series Series { get; set; }
 	}
 }
