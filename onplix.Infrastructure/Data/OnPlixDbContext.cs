@@ -15,8 +15,6 @@ namespace onplix.Infrastructure.Data
 		public DbSet<Title> Titles { get; set; }
 		public DbSet<Genre> Genres { get; set; }
 		public DbSet<TitleGenre> TitleGenres { get; set; }
-		public DbSet<Tag> Tags { get; set; }
-		public DbSet<TitleTag> TitleTags { get; set; }
 		public DbSet<Review> Reviews { get; set; }
 		public DbSet<Credit> Credits { get; set; }
 		public DbSet<FilmMember> FilmMembers { get; set; }
@@ -110,19 +108,6 @@ namespace onplix.Infrastructure.Data
 				entity.Property(e => e.Name).HasMaxLength(256);
 			});
 
-			// TitleTag
-			modelBuilder.Entity<TitleTag>(entity =>
-			{
-				entity.HasKey(e => new { e.TitleId, e.TagId });
-			});
-
-			// Tag
-			modelBuilder.Entity<Tag>(entity =>
-			{
-				entity.HasKey(e => e.Id);
-				entity.Property(e => e.Name).HasMaxLength(256);
-			});
-
 			// Credit
 			modelBuilder.Entity<Credit>(entity =>
 			{
@@ -134,10 +119,12 @@ namespace onplix.Infrastructure.Data
 			modelBuilder.Entity<Episode>(entity =>
 			{
 				entity.HasKey(e => e.Id);
-				entity.HasOne(e => e.Title).WithMany(t => t.Episodes)
-				.HasForeignKey(e => e.TitleId)
-				.OnDelete(DeleteBehavior.ClientSetNull)
-				.HasConstraintName("FK__Episodes__Title__6477ECF3");
+				entity
+					.HasOne(e => e.Title)
+					.WithMany(t => t.Episodes)
+					.HasForeignKey(e => e.TitleId)
+					.OnDelete(DeleteBehavior.ClientSetNull)
+					.HasConstraintName("FK__Episodes__Title__6477ECF3");
 			});
 
 			modelBuilder.Entity<Operator>(entity =>
