@@ -4,8 +4,15 @@
 		where TEntity : class
 		where TDto : class
 	{
+		// Get all
 		Task<List<TDto>> GetAllAsync();
-		// get by id 
+		// Get by id 
 		Task<TDto?> GetByIdAsync(int id);
+		// Insert entity
+		Task<int> Insert(TDto dto);
+		// Update entity
+		Task<TDto?> Update(TDto dto);
+		// Delete by id
+		Task<TDto?> Delete(int id);
 	}
 }

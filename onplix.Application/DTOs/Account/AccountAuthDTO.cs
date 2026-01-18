@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
-namespace onplix.Application.DTOs
+namespace onplix.Application.DTOs.Account
 {
 	public class AccountRegisterDTO
 	{

@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using onplix.Application.DTOs;
+using onplix.Application.DTOs.Account;
 using onplix.Application.Interfaces;
 using onplix.Application.Queries.Account;
 using onplix.Shared.Common;
@@ -19,7 +19,13 @@ namespace onplix.Application.Handlers.Account
 			LoginAccountQuery request,
 			CancellationToken cancellationToken)
 		{
-			var loginAccountModel = await _accountService.LoginAsync(request.accountLoginDTO);
+			var accountFromDB = await _accountService.GetUserByEmailAsync(request.accountLoginDTO.Email);
+			if (accountFromDB == null)
+			{
+				return ResponseEntity<AccountLoggedInDTO>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
+			}
+
+			var loginAccountModel = await _accountService.GetLoginTokenAsync(accountFromDB);
 			var result = ResponseEntity<AccountLoggedInDTO>.Ok(
 				loginAccountModel,
 				Constants.MESSAGE_LOGIN_SUCCESS);

@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using onplix.Application.DTOs;
+using onplix.Application.DTOs.Account;
 using onplix.Application.Interfaces;
 using onplix.Domain.Entities;
 using onplix.Domain.Interfaces;
-using onplix.Shared.Common;
 
 namespace onplix.Application.Services
 {
@@ -27,19 +26,15 @@ namespace onplix.Application.Services
 			_jwtAuthService = jwtAuthService;
 		}
 
-		public async Task<AccountLoggedInDTO> LoginAsync(AccountLoginDTO accountLoginDTO)
+		public Task<Account?> GetUserByEmailAsync(string email)
 		{
-			Account? accountFromDB = await _accountRepo.GetUserByEmailAsync(accountLoginDTO.Email);
-			if (accountFromDB == null)
-			{
-				ResponseEntity<AccountDTO>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
-			}
+			var account = _accountRepo.GetUserByEmailAsync(email);
+			return account;
+		}
 
-			if (accountFromDB!.PasswordHash != _passwordHelper.HashPassword(accountLoginDTO.Password))
-			{
-				ResponseEntity<AccountDTO>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
-			}
-			var token = _jwtAuthService.GenerateToken(accountFromDB);
+		public async Task<AccountLoggedInDTO> GetLoginTokenAsync(Account account)
+		{
+			var token = _jwtAuthService.GenerateToken(account);
 
 			return new AccountLoggedInDTO(token);
 		}
