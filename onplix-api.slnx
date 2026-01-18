@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="onplix.Api/onplix.Api.csproj" Id="df528931-80a4-426c-84f4-101352624220" />
+  <Project Path="onplix.Application/onplix.Application.csproj" Id="ddd1d6c6-a439-44e0-b465-28758a572e84" />
   <Project Path="onplix.Domain/onplix.Domain.csproj" />
   <Project Path="onplix.Infrastructure/onplix.Infrastructure.csproj" Id="aa032917-533b-440d-b0e3-fab99b67b313" />
+  <Project Path="onplix.Shared/onplix.Shared.csproj" Id="e61c2774-1a4f-41a0-b44d-2da646a010a0" />
 </Solution>

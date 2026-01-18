@@ -1,6 +1,6 @@
 ﻿namespace onplix.Application.DTOs
 {
-	public class AccountDto
+	public class AccountDTO
 	{
 		public string Email { get; set; } = null!;
 	}

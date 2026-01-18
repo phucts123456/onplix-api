@@ -507,3 +507,5 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/.vs/onplix-api.slnx/v18/.suo
+/.vs/onplix-api.slnx/v18/DocumentLayout.json

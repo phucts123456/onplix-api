@@ -32,19 +32,19 @@ namespace onplix.Application.Services
 			Account? accountFromDB = await _accountRepo.GetUserByEmailAsync(accountLoginDTO.Email);
 			if (accountFromDB == null)
 			{
-				ResponseEntity<AccountDto>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
+				ResponseEntity<AccountDTO>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
 			}
 
 			if (accountFromDB!.PasswordHash != _passwordHelper.HashPassword(accountLoginDTO.Password))
 			{
-				ResponseEntity<AccountDto>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
+				ResponseEntity<AccountDTO>.Fail(Constants.ERROR_MESSAGE_WRONG_USERNAME_OR_PASSWORD);
 			}
 			var token = _jwtAuthService.GenerateToken(accountFromDB);
 
 			return new AccountLoggedInDTO(token);
 		}
 
-		public async Task<AccountDto> RegisterAsync(AccountRegisterDTO accountRegisterDTO)
+		public async Task<AccountDTO> RegisterAsync(AccountRegisterDTO accountRegisterDTO)
 		{
 			Account newUser = _mapper.Map<Account>(accountRegisterDTO);
 			newUser.PasswordHash = _passwordHelper.HashPassword(accountRegisterDTO.Password);
@@ -53,7 +53,7 @@ namespace onplix.Application.Services
 			newUser.MaturityRating = string.Empty;
 			newUser.IsActive = true;
 			var createUser = await _accountRepo.RegisterAccountAsync(newUser);
-			var result = _mapper.Map<AccountDto>(createUser);
+			var result = _mapper.Map<AccountDTO>(createUser);
 
 			return result;
 			// return ResponseEntity<AccountDto>.Ok(res, Constants.MESSAGE_REGISTRATION_SUCCESS);
