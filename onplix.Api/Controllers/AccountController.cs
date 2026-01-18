@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using onplix.Application.DTOs;
+using onplix.Application.DTOs.Account;
 using onplix.Application.Queries.Account;
 
 namespace onplix.Api.Controllers

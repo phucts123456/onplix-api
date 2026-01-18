@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using onplix.Application.DTOs;
+using onplix.Application.DTOs.Account;
 using onplix.Domain.Entities;
 
 namespace onplix.Application.Mapping

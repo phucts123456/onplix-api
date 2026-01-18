@@ -1,0 +1,15 @@
+﻿namespace onplix.Application.DTOs.Title
+{
+	public class TitleDTO
+	{
+		public Guid Id { get; set; }
+		/// <summary>Title type (it can be title/episode</summary>
+		public string Type { get; set; }
+		public string Name { get; set; }
+		public string ReleasedYear { get; set; }
+		public string MaturityRating { get; set; }
+		public string Description { get; set; }
+		public string ImageUrl { get; set; }
+		public string PreviewUrl { get; set; }
+	}
+}
