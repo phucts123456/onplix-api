@@ -9,6 +9,8 @@
 		public string Description { get; set; }
 		public DateTime ReleasedDate { get; set; }
 		public int EpisodeLengthSeconds { get; set; }
+		public DateTime CreatedAt { get; set; }
+		public DateTime UpdatedAt { get; set; }
 		// Foreign references
 		public Season Season { get; set; }
 		public Title Title { get; set; }

@@ -34,11 +34,20 @@ namespace onplix.Infrastructure.Data
 			// Account
 			modelBuilder.Entity<Account>(entity =>
 			{
-				entity.HasKey(e => e.Id);
+				entity.HasKey(e => new { e.Id, e.Email });
 				entity.Property(e => e.Email).HasMaxLength(256).IsRequired();
 				entity.Property(e => e.DisplayName).HasMaxLength(25);
 				entity.Property(e => e.MaturityRating).HasMaxLength(100);
 				entity.Property(e => e.IsActive).HasMaxLength(1);
+				entity.Property(e => e.CreatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
+				entity.Property(e => e.UpdatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
+			});
+
+			// Series
+			modelBuilder.Entity<Series>(entity =>
+			{
+				entity.HasKey(e => e.Id);
+				entity.Property(e => e.Name).IsRequired();
 				entity.Property(e => e.CreatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 				entity.Property(e => e.UpdatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 			});
@@ -106,13 +115,25 @@ namespace onplix.Infrastructure.Data
 			{
 				entity.HasKey(e => e.Id);
 				entity.Property(e => e.Name).HasMaxLength(256);
+				entity.Property(a => a.CreatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
+				entity.Property(a => a.UpdatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 			});
 
 			// Credit
 			modelBuilder.Entity<Credit>(entity =>
 			{
 				entity.HasKey(e => e.Id);
+				entity.Property(a => a.CreatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
+				entity.Property(a => a.UpdatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 
+			});
+
+			// TitleGenre
+			modelBuilder.Entity<FavoriteTitle>(entity =>
+			{
+				entity.HasKey(e => new { e.TitleId, e.AccountId });
+				entity.Property(a => a.CreatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
+				entity.Property(a => a.UpdatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 			});
 
 			// Episode
