@@ -6,6 +6,6 @@ namespace onplix.Application.Interfaces
 	public interface IAccountService
 	{
 		Task<AccountLoggedInDTO> LoginAsync(AccountLoginDTO account);
-		Task<AccountDto> RegisterAsync(AccountRegisterDTO account);
+		Task<AccountDTO> RegisterAsync(AccountRegisterDTO account);
 	}
 }

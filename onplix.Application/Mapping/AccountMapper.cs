@@ -12,7 +12,7 @@ namespace onplix.Application.Mapping
 			CreateMap<AccountRegisterDTO, Account>()
 				.ForMember(vm => vm.PasswordHash, opt => opt.Ignore())
 				.ForMember(vm => vm.CreatedAt, opt => opt.MapFrom(dto => DateTime.Now));
-			CreateMap<Account, AccountDto>();
+			CreateMap<Account, AccountDTO>();
 		}
 	}
 }

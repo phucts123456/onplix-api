@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using onplix.Application.DTOs;
-using onplix.Application.Interfaces;
+using onplix.Application.Queries.Account;
 
 namespace onplix.Api.Controllers
 {
 	[Route("api/account")]
 	[ApiController]
-	public class AccountController(IAccountService _accountService) : ControllerBase
+	public class AccountController(Mediator _mediator) : ControllerBase
 	{
 		/// <summary>
 		/// Register account endpoint
@@ -16,7 +17,7 @@ namespace onplix.Api.Controllers
 		[HttpPost("register")]
 		public async Task<IActionResult> Register([FromBody] AccountRegisterDTO dto)
 		{
-			var result = await _accountService.RegisterAsync(dto);
+			var result = await _mediator.Send(new RegisterAccountQuery(dto));
 			if (result.StatusCode == 200 || result.StatusCode == 201)
 			{
 				return Ok(result);
@@ -32,7 +33,7 @@ namespace onplix.Api.Controllers
 		[HttpPost("login")]
 		public async Task<IActionResult> Login([FromBody] AccountLoginDTO dto)
 		{
-			var result = await _accountService.LoginAsync(dto);
+			var result = await _mediator.Send(new LoginAccountQuery(dto));
 			if (result.StatusCode == 200 || result.StatusCode == 201)
 			{
 				return Ok(result);
