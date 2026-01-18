@@ -3,64 +3,28 @@
   "WorkspaceRootPath": "D:\\cyber soft\\Final Project\\onplix-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\favoritetitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\favoritetitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\onplix.Api.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Api\\onplix.Api.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\.vs\\onplix-api.slnx\\v18\\HierarchyCache.v1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\onplix-api.slnx\\v18\\HierarchyCache.v1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\.vs\\onplix-api.slnx\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\onplix-api.slnx\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\obj\\onplix.Infrastructure.csproj.EntityFrameworkCore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Infrastructure\\obj\\onplix.Infrastructure.csproj.EntityFrameworkCore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF528931-80A4-426C-84F4-101352624220}|onplix.Api\\onplix.Api.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DF528931-80A4-426C-84F4-101352624220}|onplix.Api\\onplix.Api.csproj|solutionrelative:onplix.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\obj\\onplix.Domain.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\obj\\onplix.Domain.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF528931-80A4-426C-84F4-101352624220}|onplix.Api\\onplix.Api.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF528931-80A4-426C-84F4-101352624220}|onplix.Api\\onplix.Api.csproj|solutionrelative:onplix.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA032917-533B-440D-B0E3-FAB99B67B313}|onplix.Infrastructure\\onplix.Infrastructure.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.infrastructure\\data\\onplixdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA032917-533B-440D-B0E3-FAB99B67B313}|onplix.Infrastructure\\onplix.Infrastructure.csproj|solutionrelative:onplix.infrastructure\\data\\onplixdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\entities\\filmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\entities\\filmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA032917-533B-440D-B0E3-FAB99B67B313}|onplix.Infrastructure\\onplix.Infrastructure.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.infrastructure\\onplix.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AA032917-533B-440D-B0E3-FAB99B67B313}|onplix.Infrastructure\\onplix.Infrastructure.csproj|solutionrelative:onplix.infrastructure\\onplix.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|d:\\cyber soft\\final project\\onplix-api\\onplix.domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F225B26-0B19-1B6B-873A-2371E4BA62BF}|onplix.Domain\\onplix.Domain.csproj|solutionrelative:onplix.domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\FavoriteTitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\FavoriteTitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\DTOs\\AccountLoggedInDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -129,6 +93,62 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Mapping\\AccountMapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Application\\Mapping\\AccountMapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\Data\\OnPlixDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Infrastructure\\Data\\OnPlixDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\FilmMember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\FilmMember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Entities\\Operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\onplix.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Infrastructure\\onplix.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Interfaces\\IAccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Interfaces\\IAccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Interfaces\\IRepositoryBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:onplix.Domain\\Interfaces\\IRepositoryBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,11 +158,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "Genre.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Genre.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Genre.cs",
@@ -155,7 +175,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
+              "Title": "onplix.Api.csproj.user",
+              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\onplix.Api.csproj.user",
+              "RelativeDocumentMoniker": "onplix.Api\\onplix.Api.csproj.user",
+              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\onplix.Api.csproj.user",
+              "RelativeToolTip": "onplix.Api\\onplix.Api.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-01-18T14:00:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HierarchyCache.v1.txt",
+              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\.vs\\onplix-api.slnx\\v18\\HierarchyCache.v1.txt",
+              "RelativeDocumentMoniker": ".vs\\onplix-api.slnx\\v18\\HierarchyCache.v1.txt",
+              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\.vs\\onplix-api.slnx\\v18\\HierarchyCache.v1.txt",
+              "RelativeToolTip": ".vs\\onplix-api.slnx\\v18\\HierarchyCache.v1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-18T13:59:32.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "applicationhost.config",
+              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\.vs\\onplix-api.slnx\\config\\applicationhost.config",
+              "RelativeDocumentMoniker": ".vs\\onplix-api.slnx\\config\\applicationhost.config",
+              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\.vs\\onplix-api.slnx\\config\\applicationhost.config",
+              "RelativeToolTip": ".vs\\onplix-api.slnx\\config\\applicationhost.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-18T13:58:19.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "onplix.Infrastructure.csproj.EntityFrameworkCore.targets",
+              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\obj\\onplix.Infrastructure.csproj.EntityFrameworkCore.targets",
+              "RelativeDocumentMoniker": "onplix.Infrastructure\\obj\\onplix.Infrastructure.csproj.EntityFrameworkCore.targets",
+              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\obj\\onplix.Infrastructure.csproj.EntityFrameworkCore.targets",
+              "RelativeToolTip": "onplix.Infrastructure\\obj\\onplix.Infrastructure.csproj.EntityFrameworkCore.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-18T13:57:43.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "onplix.Domain.csproj.nuget.g.props",
+              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\obj\\onplix.Domain.csproj.nuget.g.props",
+              "RelativeDocumentMoniker": "onplix.Domain\\obj\\onplix.Domain.csproj.nuget.g.props",
+              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\obj\\onplix.Domain.csproj.nuget.g.props",
+              "RelativeToolTip": "onplix.Domain\\obj\\onplix.Domain.csproj.nuget.g.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-18T13:57:16.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistAccountHandler.cs",
+              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
+              "RelativeDocumentMoniker": "onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
+              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
+              "RelativeToolTip": "onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:17:30.934Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AccountLoggedInDTO.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\DTOs\\AccountLoggedInDTO.cs",
               "RelativeDocumentMoniker": "onplix.Application\\DTOs\\AccountLoggedInDTO.cs",
@@ -167,19 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegistAccountHandler.cs",
-              "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
-              "RelativeDocumentMoniker": "onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
-              "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
-              "RelativeToolTip": "onplix.Application\\Handlers\\Account\\RegistAccountHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T09:17:30.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "LoginAccountHandler.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Handlers\\Account\\LoginAccountHandler.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Handlers\\Account\\LoginAccountHandler.cs",
@@ -191,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
               "Title": "LoginAccountQuery.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Queries\\Account\\LoginAccountQuery.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Queries\\Account\\LoginAccountQuery.cs",
@@ -203,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Interfaces\\IAccountService.cs",
@@ -215,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 11,
               "Title": "AccountService.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Services\\AccountService.cs",
@@ -227,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "ResponseEntity.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Shared\\Common\\ResponseEntity.cs",
               "RelativeDocumentMoniker": "onplix.Shared\\Common\\ResponseEntity.cs",
@@ -239,20 +328,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FavoriteTitle.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\FavoriteTitle.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\FavoriteTitle.cs",
               "ToolTip": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\FavoriteTitle.cs",
               "RelativeToolTip": "onplix.Domain\\Entities\\FavoriteTitle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T16:45:03.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T16:45:03.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "onplix.Api\\Controllers\\AccountController.cs",
@@ -264,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 14,
               "Title": "IServiceBase.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Interfaces\\IServiceBase.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Interfaces\\IServiceBase.cs",
@@ -276,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 15,
               "Title": "IPasswordHelper.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Interfaces\\IPasswordHelper.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Interfaces\\IPasswordHelper.cs",
@@ -288,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\appsettings.json",
               "RelativeDocumentMoniker": "onplix.Api\\appsettings.json",
@@ -300,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 16,
               "Title": "IJwtAuthService.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Interfaces\\IJwtAuthService.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Interfaces\\IJwtAuthService.cs",
@@ -312,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Api\\Program.cs",
               "RelativeDocumentMoniker": "onplix.Api\\Program.cs",
@@ -324,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 17,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "onplix.Infrastructure\\Repositories\\AccountRepository.cs",
@@ -336,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 18,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "onplix.Infrastructure\\Repositories\\RepositoryBase.cs",
@@ -348,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Account.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Account.cs",
@@ -360,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 27,
               "Title": "Credit.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Credit.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Credit.cs",
@@ -372,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 28,
               "Title": "Episode.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Episode.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Episode.cs",
@@ -384,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 19,
               "Title": "AccountAuthDTO.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\DTOs\\AccountAuthDTO.cs",
               "RelativeDocumentMoniker": "onplix.Application\\DTOs\\AccountAuthDTO.cs",
@@ -396,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 20,
               "Title": "JwtAuthService.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\Services\\JwtAuthService.cs",
               "RelativeDocumentMoniker": "onplix.Infrastructure\\Services\\JwtAuthService.cs",
@@ -408,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 21,
               "Title": "Constants.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Shared\\Common\\Constants.cs",
               "RelativeDocumentMoniker": "onplix.Shared\\Common\\Constants.cs",
@@ -420,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "Series.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Series.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Series.cs",
@@ -432,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 30,
               "Title": "OnPlixDbContext.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\Data\\OnPlixDbContext.cs",
               "RelativeDocumentMoniker": "onplix.Infrastructure\\Data\\OnPlixDbContext.cs",
@@ -444,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 22,
               "Title": "AccountMapper.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Application\\Mapping\\AccountMapper.cs",
               "RelativeDocumentMoniker": "onplix.Application\\Mapping\\AccountMapper.cs",
@@ -456,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 31,
               "Title": "Title.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Title.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Title.cs",
@@ -468,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "FilmMember.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\FilmMember.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\FilmMember.cs",
@@ -480,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "Operator.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Entities\\Operator.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Entities\\Operator.cs",
@@ -492,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "onplix.Infrastructure.csproj",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Infrastructure\\onplix.Infrastructure.csproj",
               "RelativeDocumentMoniker": "onplix.Infrastructure\\onplix.Infrastructure.csproj",
@@ -503,12 +590,8 @@
               "WhenOpened": "2026-01-05T16:47:18.794Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 35,
               "Title": "IAccountRepository.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Interfaces\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Interfaces\\IAccountRepository.cs",
@@ -520,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 36,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "D:\\cyber soft\\Final Project\\onplix-api\\onplix.Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "onplix.Domain\\Interfaces\\IRepositoryBase.cs",
