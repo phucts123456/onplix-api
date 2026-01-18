@@ -56,7 +56,6 @@ namespace onplix.Application.Services
 			var result = _mapper.Map<AccountDTO>(createUser);
 
 			return result;
-			// return ResponseEntity<AccountDto>.Ok(res, Constants.MESSAGE_REGISTRATION_SUCCESS);
 		}
 	}
 }
