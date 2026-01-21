@@ -19,7 +19,6 @@ namespace onplix.Application.Services
 			IPasswordHelper passwordHelper,
 			IJwtAuthService jwtAuthService)
 		{
-
 			_mapper = mapper;
 			_accountRepo = accountRepo;
 			_passwordHelper = passwordHelper;

@@ -3,7 +3,7 @@
 	public class Title
 	{	
 		public Guid Id { get; set; }
-		/// <summary>Title type (it can be title/episode</summary>
+		/// <summary>Title type (it can be title/episode)</summary>
 		public string Type { get; set; }
 		public string Name { get; set; }
 		public string ReleasedYear { get; set; }
@@ -11,6 +11,7 @@
 		public string Description { get; set; }
 		public string ImageUrl { get; set; } 
 		public string PreviewUrl { get; set; }
+		public string IsActive { get; set; }
 		
 		// Foreign preferences
 		public ICollection<Review> Reviews { get; set; } 
