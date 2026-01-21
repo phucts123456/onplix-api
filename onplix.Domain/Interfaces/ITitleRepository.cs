@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using onplix.Domain.Entities;
 
 namespace onplix.Domain.Interfaces
 {
-	interface ITitleRepository
+	public interface ITitleRepository
 	{
-		public int Insert();
+		public Task<Title?> GetByIdAsync(Guid id);
+		public Task<int> InsertAsync(Title title);
+		public Task<int> UpdateAsync(Title title);
+		public Task<int> DeleteByIdAsync(Guid id);
 	}
 }

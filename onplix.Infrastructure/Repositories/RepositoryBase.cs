@@ -27,7 +27,7 @@ namespace onplix.Domain.Repositories
 			if (entity != null)
 			{
 				// vì T có thể là bất kỳ class nào nên ta dùng reflection để set Deleted = true
-				entity.GetType().GetProperty("Deleted")?.SetValue(entity, true);
+				entity.GetType().GetProperty("IsActive")?.SetValue(entity, true);
 				_dbSet.Update(entity);
 				return true;
 			}

@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\onplix.Application\onplix.Application.csproj" />
     <ProjectReference Include="..\onplix.Domain\onplix.Domain.csproj" />
+    <ProjectReference Include="..\onplix.Shared\onplix.Shared.csproj" />
   </ItemGroup>
 
 </Project>

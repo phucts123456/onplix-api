@@ -82,7 +82,11 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IPasswordHelper, PasswordHelper>();
 builder.Services.AddScoped<IJwtAuthService, JwtAuthService>();
-builder.Services.AddAutoMapper(config => { }, typeof(AccountMapper));
+builder.Services.AddScoped<ITitleService, TitleService>();
+builder.Services.AddAutoMapper(
+	config => { },
+	typeof(AccountMapper),
+	typeof(TitleMapper));
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();

@@ -3,31 +3,11 @@ using onplix.Domain.Entities;
 
 namespace onplix.Application.Interfaces
 {
-	public class ITitleService : IServiceBase<Title, TitleDTO>
+	public interface ITitleService : IServiceBase<Title, TitleDTO>
 	{
-		public Task<TitleDTO?> Delete(int id)
-		{
-			throw new NotImplementedException();
-		}
-
-		public Task<List<TitleDTO>> GetAllAsync()
-		{
-			throw new NotImplementedException();
-		}
-
-		public Task<TitleDTO?> GetByIdAsync(int id)
-		{
-			throw new NotImplementedException();
-		}
-
-		public Task<TitleDTO?> Update(TitleDTO dto)
-		{
-			throw new NotImplementedException();
-		}
-
-		Task<int> Insert(TitleDTO dto)
-		{
-			throw new NotImplementedException();
-		}
+		Task<int> InsertAsync(Title title);
+		Task<int> UpdateAsync(Title title);
+		Task<int> DeleteByIdAsync(Guid id);
+		Task<Title?> GetByIdAsync(Guid id);
 	}
 }
