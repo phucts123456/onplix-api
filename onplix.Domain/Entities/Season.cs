@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace onplix.Domain.Entities
+﻿namespace onplix.Domain.Entities
 {
 	public class Season
 	{

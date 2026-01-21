@@ -46,7 +46,7 @@ namespace onplix.Infrastructure.Data
 			// Series
 			modelBuilder.Entity<Series>(entity =>
 			{
-				entity.HasKey(e => e.Id);
+				entity.HasKey(e => new { e.Id, e.TitleId });
 				entity.Property(e => e.Name).IsRequired();
 				entity.Property(e => e.CreatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
 				entity.Property(e => e.UpdatedAt).HasColumnType("datetime").HasDefaultValueSql("getdate()");
@@ -137,15 +137,27 @@ namespace onplix.Infrastructure.Data
 			});
 
 			// Episode
+			modelBuilder.Entity<Season>(entity =>
+			{
+				entity.HasKey(e => new { e.Id, e.SeriesId });
+				entity
+					.HasOne(e => e.Series)
+					.WithMany(t => t.Seasons)
+					.HasForeignKey(e => e.SeriesId)
+					.OnDelete(DeleteBehavior.ClientSetNull)
+					.HasConstraintName("FK__Seasons__Series__6477ECF3");
+			});
+
+			// Episode
 			modelBuilder.Entity<Episode>(entity =>
 			{
-				entity.HasKey(e => e.Id);
+				entity.HasKey(e => new { e.Id, e.SeasonId, e.SeriesId });
 				entity
-					.HasOne(e => e.Title)
+					.HasOne(e => e.Season)
 					.WithMany(t => t.Episodes)
-					.HasForeignKey(e => e.TitleId)
+					.HasForeignKey(e => e.SeasonId)
 					.OnDelete(DeleteBehavior.ClientSetNull)
-					.HasConstraintName("FK__Episodes__Title__6477ECF3");
+					.HasConstraintName("FK__Episodes__Season__6477ECF3");
 			});
 
 			modelBuilder.Entity<Operator>(entity =>
